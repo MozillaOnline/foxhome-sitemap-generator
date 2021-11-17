@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 
-CANONICAL_DOMAIN = "https://www.mozilla.org"
+CANONICAL_DOMAIN = "https://www.firefox.com.cn"
 SITEMAP_FILE = Path("./root_files/sitemap.json")
 DATA_PATH = Path("./sitemap-data")
 ETAGS_FILE = DATA_PATH.joinpath("etags.json")

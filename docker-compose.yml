@@ -1,9 +1,9 @@
 version: '3.4'
 services:
   generator:
-    image: mozmeao/generate-sitemap:latest
+    image: MozillaOnline/generate-sitemap:latest
     env_file:
-      - .bedrock.env
+      - .foxhome.env
     build:
       context: .
     command: ./run-generator.sh
